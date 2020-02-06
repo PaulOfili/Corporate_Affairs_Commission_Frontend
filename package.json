@@ -1,0 +1,56 @@
+{
+  "name": "corporate-affairs-commission",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "antd": "^3.26.2",
+    "axios": "^0.19.1",
+    "cross-env": "^6.0.3",
+    "cuid": "^2.1.6",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "history": "^4.10.1",
+    "immer": "^5.2.1",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "node-sass": "^4.13.0",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.9.0",
+    "react": "^16.12.0",
+    "react-cookie": "^4.0.1",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.0",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-saga": "^1.1.3",
+    "simple-flexbox": "^2.3.0"
+  },
+  "scripts": {
+    "start": "cross-env REACT_APP_STAGE=dev react-scripts start",
+    "build": "cross-env REACT_APP_STAGE=dev react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://isw-portal-v2.k13.isw.la"
+}
